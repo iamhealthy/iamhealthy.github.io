@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kang Wu/吴康"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+  page-footer:
+    background: dark # or `dark`
+    left: © 2025 Kang Wu/吴康。版权所有。
+
+format:
+  html:
+    theme: solar
+    css: styles.css
+    toc: false
+    page-layout: full
