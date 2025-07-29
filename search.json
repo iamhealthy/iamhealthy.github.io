@@ -84,10 +84,10 @@
     "text": "Q5: What are the historical vaccination policies for the BCG tuberculosis vaccine in various countries?\nA5: Visit THE BCG WORLD ATLAS.\nPLoS Med. 2011. PMID: 21445325"
   },
   {
-    "objectID": "posts/To-present_bio-miscellany_Q-and-A/index.html#q5-what-are-the-differences-between-qupath-and-imagej-in-brief",
-    "href": "posts/To-present_bio-miscellany_Q-and-A/index.html#q5-what-are-the-differences-between-qupath-and-imagej-in-brief",
+    "objectID": "posts/To-present_bio-miscellany_Q-and-A/index.html#q6-what-are-the-differences-between-qupath-and-imagej-in-brief",
+    "href": "posts/To-present_bio-miscellany_Q-and-A/index.html#q6-what-are-the-differences-between-qupath-and-imagej-in-brief",
     "title": "The biological-relevant questions",
-    "section": "Q5: What are the differences between QuPath and ImageJ (in brief)?",
-    "text": "Q5: What are the differences between QuPath and ImageJ (in brief)?\n\nThere’s a lot that QuPath can do that ImageJ can’t, especially when it comes to working with whole slide images and object classification. But it works the other way too: there’s also a lot that’s possible with ImageJ, but which isn’t possible with QuPath alone.\n\n\nFortunately, you don’t have to choose one or the other. They are both open and can be used together.\n\nQuPath"
+    "section": "Q6: What are the differences between QuPath and ImageJ (in brief)?",
+    "text": "Q6: What are the differences between QuPath and ImageJ (in brief)?\nA6:\n\nThere’s a lot that QuPath can do that ImageJ can’t, especially when it comes to working with whole slide images and object classification. But it works the other way too: there’s also a lot that’s possible with ImageJ, but which isn’t possible with QuPath alone.\n\n\nFortunately, you don’t have to choose one or the other. They are both open and can be used together.\n\nQuPath"
   }
 ]
