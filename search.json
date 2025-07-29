@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "Some good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nJul 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJul 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJul 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nJul 29, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/maybe_good_sentences/index.html",
@@ -82,5 +82,12 @@
     "title": "The biological-relevant questions",
     "section": "Q5: What are the historical vaccination policies for the BCG tuberculosis vaccine in various countries?",
     "text": "Q5: What are the historical vaccination policies for the BCG tuberculosis vaccine in various countries?\nA5: Visit THE BCG WORLD ATLAS.\nPLoS Med. 2011. PMID: 21445325"
+  },
+  {
+    "objectID": "posts/To-present_bio-miscellany_Q-and-A/index.html#q5-what-are-the-differences-between-qupath-and-imagej-in-brief",
+    "href": "posts/To-present_bio-miscellany_Q-and-A/index.html#q5-what-are-the-differences-between-qupath-and-imagej-in-brief",
+    "title": "The biological-relevant questions",
+    "section": "Q5: What are the differences between QuPath and ImageJ (in brief)?",
+    "text": "Q5: What are the differences between QuPath and ImageJ (in brief)?\n\nThere’s a lot that QuPath can do that ImageJ can’t, especially when it comes to working with whole slide images and object classification. But it works the other way too: there’s also a lot that’s possible with ImageJ, but which isn’t possible with QuPath alone.\n\n\nFortunately, you don’t have to choose one or the other. They are both open and can be used together.\n\nQuPath"
   }
 ]
