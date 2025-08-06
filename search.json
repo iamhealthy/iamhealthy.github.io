@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJul 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nJul 29, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nAug 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nJul 29, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/maybe_good_sentences/index.html",
@@ -89,5 +89,12 @@
     "title": "The biological-relevant questions",
     "section": "Q6: What are the differences between QuPath and ImageJ (in brief)?",
     "text": "Q6: What are the differences between QuPath and ImageJ (in brief)?\nA6:\n\nThere’s a lot that QuPath can do that ImageJ can’t, especially when it comes to working with whole slide images and object classification. But it works the other way too: there’s also a lot that’s possible with ImageJ, but which isn’t possible with QuPath alone.\n\n\nFortunately, you don’t have to choose one or the other. They are both open and can be used together.\n\nQuPath"
+  },
+  {
+    "objectID": "posts/To-present_bio-miscellany_Q-and-A/index.html#q7-how-do-we-know-we-can-trust-the-bioimage-analysis-results",
+    "href": "posts/To-present_bio-miscellany_Q-and-A/index.html#q7-how-do-we-know-we-can-trust-the-bioimage-analysis-results",
+    "title": "The biological-relevant questions",
+    "section": "Q7: How do we know we can trust the bioimage analysis results?",
+    "text": "Q7: How do we know we can trust the bioimage analysis results?\nA7:\n\nExcellent question - stay skeptical!\n\n\nImage analysis lets you generate numbers, but these can be sensitive to how precisely you do the analysis (with or without machine learning). QuPath gives you the tools to make the measurements and to visualize them, but the meaning and validation is up to the user.\n\n\nThis is why image analysis results (from any software) should be carefully validated and treated with caution. Doing this is challenging because the ‘truth’ can be hard to define. One way is to compare with expert evaluation. Another (in some cases) is to use clinical outcome. Both these have limitations; validation is almost always hard – but crucial.\n\n\nThere is also the possibility of bugs in any software. If you find any discrepancies, please report them so they can be investigated and fixed if necessary.\n\nQuPath"
   }
 ]
