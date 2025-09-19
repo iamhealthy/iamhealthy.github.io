@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "Some good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nSep 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nAug 6, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nSep 19, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/maybe_good_sentences/index.html",
@@ -25,7 +25,14 @@
     "href": "posts/maybe_good_sentences/index.html#section-1",
     "title": "Some good sentences",
     "section": "2025-08",
-    "text": "2025-08\n\nQuanlity before quantity.\n\nMing Tommy Tang on BlueSky\n\nThe testis is known for its immune-privileged status, maintained by the blood–testis barrier, which prevents autoimmune reactions against spermatogenic cells.\n\nMed Sci (Basel). 2025. PMID: 40843751\n\n… doesn’t yet have the thick skin to shrug off the hostility.\n\nRoy Perlis on LinkedIn\n\nGood ideas come from having lots of experience. And experience comes from having lots of bad ideas.\n\nItai Yanai on BlueSky\n\nthe rapid growth and accumulation of sequence data have outpaced efficient analysis capabilities.\n\nbioRxiv. 2025\n\nClear lines of logical argument, precise definitions, often can only be composed in writing. Paper and pencil (or the word processor) are extensions of our brains.\n\nWolfgang Huber on BlueSky"
+    "text": "2025-08\n\nQuanlity before quantity.\n\nMing Tommy Tang on BlueSky\n\nThe testis is known for its immune-privileged status, maintained by the blood–testis barrier, which prevents autoimmune reactions against spermatogenic cells.\n\nMed Sci (Basel). 2025. PMID: 40843751\n\n… doesn’t yet have the thick skin to shrug off the hostility.\n\nRoy Perlis on LinkedIn\n\nGood ideas come from having lots of experience. And experience comes from having lots of bad ideas.\n\nItai Yanai on BlueSky"
+  },
+  {
+    "objectID": "posts/maybe_good_sentences/index.html#section-2",
+    "href": "posts/maybe_good_sentences/index.html#section-2",
+    "title": "Some good sentences",
+    "section": "2025-09",
+    "text": "2025-09\n\nthe rapid growth and accumulation of sequence data have outpaced efficient analysis capabilities.\n\nbioRxiv. 2025\n\nClear lines of logical argument, precise definitions, often can only be composed in writing. Paper and pencil (or the word processor) are extensions of our brains.\n\nWolfgang Huber on BlueSky\n\n… image analysis may be faster, more reproducible, and more quantitative than visual assessment.\n\nQuPath"
   },
   {
     "objectID": "cv.html",
@@ -103,5 +110,12 @@
     "title": "The biological-relevant questions",
     "section": "Q7: How do we know we can trust the bioimage analysis results?",
     "text": "Q7: How do we know we can trust the bioimage analysis results?\nA7:\n\nExcellent question - stay skeptical!\n\n\nImage analysis lets you generate numbers, but these can be sensitive to how precisely you do the analysis (with or without machine learning). QuPath gives you the tools to make the measurements and to visualize them, but the meaning and validation is up to the user.\n\n\nThis is why image analysis results (from any software) should be carefully validated and treated with caution. Doing this is challenging because the ‘truth’ can be hard to define. One way is to compare with expert evaluation. Another (in some cases) is to use clinical outcome. Both these have limitations; validation is almost always hard – but crucial.\n\n\nThere is also the possibility of bugs in any software. If you find any discrepancies, please report them so they can be investigated and fixed if necessary.\n\nQuPath"
+  },
+  {
+    "objectID": "posts/To-present_bio-miscellany_Q-and-A/index.html#q8-what-is-the-relationship-between-image-analysis-objectivity",
+    "href": "posts/To-present_bio-miscellany_Q-and-A/index.html#q8-what-is-the-relationship-between-image-analysis-objectivity",
+    "title": "The biological-relevant questions",
+    "section": "Q8: What is the relationship between image analysis & objectivity?",
+    "text": "Q8: What is the relationship between image analysis & objectivity?\nA8:\n\nOne of the claimed advantages of image analysis over visual assessment is that it is objective.\n\n\nI hope this tutorials helps demonstrate why this is completely wrong!\n\n\nEven for this very simple example, we need to make decisions:\n\n\n\nAt what resolution will we perform our detection?\nWhat should be included in the tissue? Do we want areas of fat or not?\nHow to we define our stain colors?\nWhat thresholds do we use?\n\n\n\nAll of these can impact the results. Different people may (subjectively) make different decisions, and the results of their analysis will differ accordingly.\n\n\nQuPath does not answer these questions for you, but gives you the tools for you to construct your own analysis pipelines.\n\n\nHowever, while it is important to be aware that image analysis is not objective, this does not make it useless. Used cautiously – and with careful validation – image analysis may be faster, more reproducible, and more quantitative than visual assessment.\n\nQuPath"
   }
 ]
