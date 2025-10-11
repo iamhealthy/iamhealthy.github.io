@@ -70,6 +70,13 @@
     "text": "Q8: What is the relationship between image analysis & objectivity?\nA8:\n\nOne of the claimed advantages of image analysis over visual assessment is that it is objective.\n\n\nI hope this tutorials helps demonstrate why this is completely wrong!\n\n\nEven for this very simple example, we need to make decisions:\n\n\n\nAt what resolution will we perform our detection?\nWhat should be included in the tissue? Do we want areas of fat or not?\nHow to we define our stain colors?\nWhat thresholds do we use?\n\n\n\nAll of these can impact the results. Different people may (subjectively) make different decisions, and the results of their analysis will differ accordingly.\n\n\nQuPath does not answer these questions for you, but gives you the tools for you to construct your own analysis pipelines.\n\n\nHowever, while it is important to be aware that image analysis is not objective, this does not make it useless. Used cautiously – and with careful validation – image analysis may be faster, more reproducible, and more quantitative than visual assessment.\n\nQuPath"
   },
   {
+    "objectID": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q9-how-are-the-nobel-prize-laureates-selected",
+    "href": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q9-how-are-the-nobel-prize-laureates-selected",
+    "title": "The biological-relevant questions",
+    "section": "Q9: How are the Nobel Prize laureates selected?",
+    "text": "Q9: How are the Nobel Prize laureates selected?\nA9:\n\nThousands of members of academies, university professors, scientists, previous laureates, members of parliamentary assemblies and others, submit nominations for the Nobel Prizes every year. These nominators have been chosen to ensure that as many countries and universities as possible are represented over time. After a long selection process, the Nobel Prize awarding institutions finally make their choice and announce them in October.\n\nThe Nobel Prize in X"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kang Wu/吴康",
@@ -116,6 +123,6 @@
     "href": "nutrition.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "Some good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nSep 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nSep 19, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nOct 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nOct 11, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
