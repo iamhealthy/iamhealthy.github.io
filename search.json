@@ -98,18 +98,25 @@
     "text": "Q12: What is photobleaching?\nA12:\n\nPhotobleaching is an irreversible process in which fluorophores, upon repeated absorption of excitation photons, undergo chemical modifications that result in a permanent loss of their fluorescence.\n\nProc Natl Acad Sci U S A. 2025. PMID: 40961137"
   },
   {
+    "objectID": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q13-for-general-microscopy-image-analysis-what-software-platforms-are-available",
+    "href": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q13-for-general-microscopy-image-analysis-what-software-platforms-are-available",
+    "title": "The biological-relevant questions",
+    "section": "Q13: For general microscopy image analysis, what software platforms are available?",
+    "text": "Q13: For general microscopy image analysis, what software platforms are available?\nA13:\n\nSeveral software platforms support general microscopy image analysis - including open-source tools such as QuPath, CellProfiler, Fiji, and Napari, as well as commercial packages like HALO (Indica Labs, Albuquerque, NM, United States) and Visiopharm (Hørsholm, Denmark).\n\nFront Bioinform. 2025. PMID: 40980692"
+  },
+  {
     "objectID": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html",
     "href": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html",
     "title": "Bioimage analysis, bioinformatics, and sci-tech",
     "section": "",
-    "text": "The ‘推文/post’ section is probably nutritional I think."
+    "text": "The “推文/post” section is probably “nutritional” I think."
   },
   {
     "objectID": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html#one-more-click-please-hahaha.",
     "href": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html#one-more-click-please-hahaha.",
     "title": "Bioimage analysis, bioinformatics, and sci-tech",
     "section": "",
-    "text": "The ‘推文/post’ section is probably nutritional I think."
+    "text": "The “推文/post” section is probably “nutritional” I think."
   },
   {
     "objectID": "contact.html",
@@ -165,13 +172,20 @@
     "href": "nutrition/maybe_good_sentences/index.html#section-4",
     "title": "Some good sentences",
     "section": "2025-11",
-    "text": "2025-11\n\n… in most cases you’ll have to train the projects on multiple images, representative of the whole dataset.\n\nforum.image.sc\n\n… skepticism belongs in science - particularly in image analysis - and it’s always worth testing things from multiple angles, just in case.\n\nIntroduction to Bioimage Analysis\n\nThe first thing you need to figure out is why the intensity changes across images. Is it something real about the biology, or inconsistent staining, or changing acquisition protocols? Also, is it that some images, as a whole, are brighter than others, or are there regional changes throughout a slide?\n\nSara McArdle\n\n… commercial kits available for quenching AF (autofluorescence) … Good quality sections with clean staining and well-scanned images is by far the most immportant part of image analysis.\n\nChris Starling\n\nConsider that perhaps intensity based gating (even with correction) is not going to get you there… probability based object classifier, or Deep Learning based phenotyping … can take into account more than just intensity (eg. textural features, patterning, puncta, polarisation), and in fact be more robust against changes field-to-field and image-to-image… be comfortable with an error rate (however small). Given the complexity of multiplexed tissue image analysis, there will be errors.\n\nDavid Mason\n\n… image analysis is not for perfectionist or you’ll never ended: just be rigorous with good controls.\n\nA colleague of of Nicolas Goudin"
+    "text": "2025-11\n\n… in most cases you’ll have to train the projects on multiple images, representative of the whole dataset.\n\nforum.image.sc\n\n… skepticism belongs in science - particularly in image analysis - and it’s always worth testing things from multiple angles, just in case.\n\nIntroduction to Bioimage Analysis\n\nThe first thing you need to figure out is why the intensity changes across images. Is it something real about the biology, or inconsistent staining, or changing acquisition protocols? Also, is it that some images, as a whole, are brighter than others, or are there regional changes throughout a slide?\n\nSara McArdle\n\n… commercial kits available for quenching AF (autofluorescence) … Good quality sections with clean staining and well-scanned images is by far the most immportant part of image analysis.\n\nChris Starling\n\nConsider that perhaps intensity based gating (even with correction) is not going to get you there… probability based object classifier, or Deep Learning based phenotyping … can take into account more than just intensity (eg. textural features, patterning, puncta, polarisation), and in fact be more robust against changes field-to-field and image-to-image… be comfortable with an error rate (however small). Given the complexity of multiplexed tissue image analysis, there will be errors.\n\nDavid Mason\n\n… image analysis is not for perfectionist or you’ll never ended: just be rigorous with good controls.\n\nA colleague of Nicolas Goudin"
+  },
+  {
+    "objectID": "nutrition/maybe_good_sentences/index.html#section-5",
+    "href": "nutrition/maybe_good_sentences/index.html#section-5",
+    "title": "Some good sentences",
+    "section": "2025-12",
+    "text": "2025-12\n\n… if the function of two gene products completely overlaps then, throughout the course of evolution, one of the genes will likely accumulate mutations to the point of loss-of-function.\n\n\nM. tuberculosis genome retains redundant functions at multiple levels that allow the bacilli to adapt to extremely heterogeneous environments in the human host.\n\nPLoS Pathog. 2025. PMID: 41348814"
   },
   {
     "objectID": "nutrition.html",
     "href": "nutrition.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nDec 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioimage analysis, bioinformatics, and sci-tech\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nDec 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nNov 29, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Bioimage analysis, bioinformatics, and sci-tech\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nDec 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nDec 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nDec 5, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
