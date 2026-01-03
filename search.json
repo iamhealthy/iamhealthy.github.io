@@ -105,6 +105,20 @@
     "text": "Q13: For general microscopy image analysis, what software platforms are available?\nA13:\n\nSeveral software platforms support general microscopy image analysis - including open-source tools such as QuPath, CellProfiler, Fiji, and Napari, as well as commercial packages like HALO (Indica Labs, Albuquerque, NM, United States) and Visiopharm (Hørsholm, Denmark).\n\nFront Bioinform. 2025. PMID: 40980692"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kang Wu/吴康",
+    "section": "",
+    "text": "1️⃣After my Ph.D.👨🏻‍🎓in Shanghai Jiao Tong U., I became a Research Assistant at Shanghai Public Health Clinical Center (affiliated with Fudan U.), focusing on TB immunology, vaccine development, and bioinformatics (2012 - 2021).\n2️⃣Then after transitioning to industry, I have continued to pursue🕵🏻advancements in omics-, cell-, and BioImageAnalysis-relevant technologies, particularly in therapeutic and diagnostic applications.\n3️⃣I am self-taught in R, and am continually🚶🏻‍➡️enhancing Python, Bash, and PowerShell capabilities."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Kang Wu/吴康",
+    "section": "",
+    "text": "The right three images were prepared using QuPath v0.6.0.\n\n\n\nPhone: +86-15821314790\nEmail_1: wu__kang@126.com\nEmail_2: wukangx9@gmail.com\nEmail_3: 15821314790@126.com\nWechat: +86-15821314790, or scan the following QR code:\n\n\n\nAcknowledgements\nThis website was primarily developed based on the guidelines from the Creating your personal website using Quarto."
+  },
+  {
     "objectID": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html",
     "href": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html",
     "title": "Bioimage analysis, bioinformatics, and sci-tech",
@@ -119,73 +133,59 @@
     "text": "The “推文/post” section is probably “nutritional” I think."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Kang Wu/吴康",
-    "section": "",
-    "text": "The right three images were prepared using QuPath v0.6.0.\n\n\n\nPhone: +86-15821314790\nEmail_1: wu__kang@126.com\nEmail_2: wukangx9@gmail.com\nEmail_3: 15821314790@126.com\nWechat: +86-15821314790, or scan the following QR code:\n\n\n\nAcknowledgements\nThis website was primarily developed based on the guidelines from the Creating your personal website using Quarto."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kang Wu/吴康",
-    "section": "",
-    "text": "1️⃣After my Ph.D.👨🏻‍🎓in Shanghai Jiao Tong U., I became a Research Assistant at Shanghai Public Health Clinical Center (affiliated with Fudan U.), focusing on TB immunology, vaccine development, and bioinformatics (2012 - 2021).\n2️⃣Then after transitioning to industry, I have continued to pursue🕵🏻advancements in omics-, cell-, and BioImageAnalysis-relevant technologies, particularly in therapeutic and diagnostic applications.\n3️⃣I am self-taught in R, and am continually🚶🏻‍➡️enhancing Python, Bash, and PowerShell capabilities."
-  },
-  {
-    "objectID": "nutrition/maybe_good_sentences/index.html",
-    "href": "nutrition/maybe_good_sentences/index.html",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html",
+    "title": "Some good sentences in biology",
     "section": "",
     "text": "Antibody function is governed not only by antigen specificity, conferred by the antigen-binding (Fab) domain to neutralize pathogens but also by the antibody constant (Fc) domain, which recruits complement and engages Fc receptors (FcRs) on the surface of immune cells.\n\nImmunity. 2025. PMID: 40449485\n\nAny given MHC molecule can bind numerous different peptides, and some peptide can bind to several different MHC molecules. Because of this broad specificity, the binding between a peptide and an MHC molecule is often referred to as “promiscuous”.\n\nKuby immunology 2018 p533\n\n…studies use a cross-validation approach, in which one chunk of a data set is reserved for training and another for testing. This can lead to issues such as overfitting, meaning that an algorithm performs well on data similar to the information that the model has encountered before but does poorly on disparate data. “The problem with cross-validation is that it tends to provide fairly optimistic results,” Madabhushi explains. “The cleanest and best way to validate these models is through external, independent validation, where the external test set is separate and distinct from the training set and ideally from a separate institution.”\n\nNature. 2025. PMID: 40410341\n\nTrained immunity in alveolar macrophages can lead to damaging lung inflammation, confirming the importance of context in this phenomenon.\n\neLife. 2025. doi: 10.7554/eLife.107787\n\nWhether it’s a sales skill, writing skill, musical talent, preaching ability, inventiveness, food production, cleaning, or childcare, these are all value-creation skills. Few people possess all these skills, and no one is the world’s best at all of them. That’s why most people specialize and outsource the rest.\n\nIsrael Kloss on LinkedIn\n\nActually you have 22 pairs of chromosomes numbered 1 through 22, and if you’re a woman, you have a pair of X chromosomes, for a total of 23 pairs. If you’re a man, you have one X and one Y chromosome instead of two X’s, so the 23rd “pair” isn’t technically a pair at all, even though some parts of Y are identical to some parts of X.\n\nSteven Salzberg on Substack\n\nIt is important to be aware that most common image/photo editing software applications don’t care about preserving pixel values. Only the appearance really matters. Therefore if you adjust the brightness/contrast of an image in such software you can easily make the image unsuitable for later quantitative analysis by compromising the data.\n\n\nIn practice, magnification is then not terribly meaningful: the pixel size is the crucial value needed to make measurements in physical units, and to compare the resolution across images.\n\nQuPath\n\nWriting compels us to think — not in the chaotic, non-linear way our minds typically wander, but in a structured, intentional manner.\n\nNature Reviews Bioengineering\n\nIn QuPath, as in life, it is neither easy nor wise to rewrite history.\n\nQuPath\n\nI am a strong believer that depth of data can be just as powerful as scale of data. Deep analysis of small groups of humans, and even individuals, can lead to novel biological insights and principles.\n\nAnsu Satpathy on X\n\nEnergy and initiative matter more than talent.\n\nMing Tommy Tang on BlueSky"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section",
-    "href": "nutrition/maybe_good_sentences/index.html#section",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section",
+    "title": "Some good sentences in biology",
     "section": "",
     "text": "Antibody function is governed not only by antigen specificity, conferred by the antigen-binding (Fab) domain to neutralize pathogens but also by the antibody constant (Fc) domain, which recruits complement and engages Fc receptors (FcRs) on the surface of immune cells.\n\nImmunity. 2025. PMID: 40449485\n\nAny given MHC molecule can bind numerous different peptides, and some peptide can bind to several different MHC molecules. Because of this broad specificity, the binding between a peptide and an MHC molecule is often referred to as “promiscuous”.\n\nKuby immunology 2018 p533\n\n…studies use a cross-validation approach, in which one chunk of a data set is reserved for training and another for testing. This can lead to issues such as overfitting, meaning that an algorithm performs well on data similar to the information that the model has encountered before but does poorly on disparate data. “The problem with cross-validation is that it tends to provide fairly optimistic results,” Madabhushi explains. “The cleanest and best way to validate these models is through external, independent validation, where the external test set is separate and distinct from the training set and ideally from a separate institution.”\n\nNature. 2025. PMID: 40410341\n\nTrained immunity in alveolar macrophages can lead to damaging lung inflammation, confirming the importance of context in this phenomenon.\n\neLife. 2025. doi: 10.7554/eLife.107787\n\nWhether it’s a sales skill, writing skill, musical talent, preaching ability, inventiveness, food production, cleaning, or childcare, these are all value-creation skills. Few people possess all these skills, and no one is the world’s best at all of them. That’s why most people specialize and outsource the rest.\n\nIsrael Kloss on LinkedIn\n\nActually you have 22 pairs of chromosomes numbered 1 through 22, and if you’re a woman, you have a pair of X chromosomes, for a total of 23 pairs. If you’re a man, you have one X and one Y chromosome instead of two X’s, so the 23rd “pair” isn’t technically a pair at all, even though some parts of Y are identical to some parts of X.\n\nSteven Salzberg on Substack\n\nIt is important to be aware that most common image/photo editing software applications don’t care about preserving pixel values. Only the appearance really matters. Therefore if you adjust the brightness/contrast of an image in such software you can easily make the image unsuitable for later quantitative analysis by compromising the data.\n\n\nIn practice, magnification is then not terribly meaningful: the pixel size is the crucial value needed to make measurements in physical units, and to compare the resolution across images.\n\nQuPath\n\nWriting compels us to think — not in the chaotic, non-linear way our minds typically wander, but in a structured, intentional manner.\n\nNature Reviews Bioengineering\n\nIn QuPath, as in life, it is neither easy nor wise to rewrite history.\n\nQuPath\n\nI am a strong believer that depth of data can be just as powerful as scale of data. Deep analysis of small groups of humans, and even individuals, can lead to novel biological insights and principles.\n\nAnsu Satpathy on X\n\nEnergy and initiative matter more than talent.\n\nMing Tommy Tang on BlueSky"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section-1",
-    "href": "nutrition/maybe_good_sentences/index.html#section-1",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-1",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section-1",
+    "title": "Some good sentences in biology",
     "section": "2025-08",
     "text": "2025-08\n\nQuanlity before quantity.\n\nMing Tommy Tang on BlueSky\n\nThe testis is known for its immune-privileged status, maintained by the blood–testis barrier, which prevents autoimmune reactions against spermatogenic cells.\n\nMed Sci (Basel). 2025. PMID: 40843751\n\n… doesn’t yet have the thick skin to shrug off the hostility.\n\nRoy Perlis on LinkedIn\n\nGood ideas come from having lots of experience. And experience comes from having lots of bad ideas.\n\nItai Yanai on BlueSky"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section-2",
-    "href": "nutrition/maybe_good_sentences/index.html#section-2",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-2",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section-2",
+    "title": "Some good sentences in biology",
     "section": "2025-09",
     "text": "2025-09\n\nthe rapid growth and accumulation of sequence data have outpaced efficient analysis capabilities.\n\nbioRxiv. 2025\n\nClear lines of logical argument, precise definitions, often can only be composed in writing. Paper and pencil (or the word processor) are extensions of our brains.\n\nWolfgang Huber on BlueSky\n\n… image analysis may be faster, more reproducible, and more quantitative than visual assessment.\n\nQuPath\n\n… story-telling is easier than science.\n\nMing Tommy Tang on BlueSky\n\nAs far as the computer is concerned, each pixel is really just a number and the full image is a 2D matrix of these numbers: the pixel values … In science, the pixel values are crucial - how they are displayed is not.\n\nQuPath"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section-3",
-    "href": "nutrition/maybe_good_sentences/index.html#section-3",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-3",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section-3",
+    "title": "Some good sentences in biology",
     "section": "2025-10",
     "text": "2025-10\n\nUC wins 5 Nobel Prizes in 3 days — and sets a new world record.\n\nUNIVERSIDAD DE CALIFORNIA\n\nGreat to know that we are not alone in this effort.\n\nJoseph Arboleda-Velasquez on LinkedIn\n\nThe naked mole-rat/裸鼹鼠 (Heterocephalus glaber) is an extraordinarily long-lived rodent with a maximum life span of ∼37 years.\n\nScience. 2025. DOI: 10.1126/science.adp5056\n\nThe naked mole rat (Heterocephalus glaber) is the longest-lived rodent, with a maximum life span of nearly 40 years.\n\nScience. 2025. DOI: 10.1126/science.aeb6125\n\nWe complement each other very much.\n\nPeter Howitt, laureate of 2025 Nobel Prize in Economics Sciences, on X\n\nThe more variability you capture in the training data, the more accurate the classifier will be.\n\nMicroscopeRA on forum.image.sc\n\nAt more than 200 years, the maximum lifespan of the bowhead whale exceeds that of all other mammals.\n\nNature. 2025"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section-4",
-    "href": "nutrition/maybe_good_sentences/index.html#section-4",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-4",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section-4",
+    "title": "Some good sentences in biology",
     "section": "2025-11",
     "text": "2025-11\n\n… in most cases you’ll have to train the projects on multiple images, representative of the whole dataset.\n\nforum.image.sc\n\n… skepticism belongs in science - particularly in image analysis - and it’s always worth testing things from multiple angles, just in case.\n\nIntroduction to Bioimage Analysis\n\nThe first thing you need to figure out is why the intensity changes across images. Is it something real about the biology, or inconsistent staining, or changing acquisition protocols? Also, is it that some images, as a whole, are brighter than others, or are there regional changes throughout a slide?\n\nSara McArdle\n\n… commercial kits available for quenching AF (autofluorescence) … Good quality sections with clean staining and well-scanned images is by far the most immportant part of image analysis.\n\nChris Starling\n\nConsider that perhaps intensity based gating (even with correction) is not going to get you there… probability based object classifier, or Deep Learning based phenotyping … can take into account more than just intensity (eg. textural features, patterning, puncta, polarisation), and in fact be more robust against changes field-to-field and image-to-image… be comfortable with an error rate (however small). Given the complexity of multiplexed tissue image analysis, there will be errors.\n\nDavid Mason\n\n… image analysis is not for perfectionist or you’ll never ended: just be rigorous with good controls.\n\nA colleague of Nicolas Goudin"
   },
   {
-    "objectID": "nutrition/maybe_good_sentences/index.html#section-5",
-    "href": "nutrition/maybe_good_sentences/index.html#section-5",
-    "title": "Some good sentences",
+    "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-5",
+    "href": "nutrition/maybe_good_sentences_in_biology/index.html#section-5",
+    "title": "Some good sentences in biology",
     "section": "2025-12",
-    "text": "2025-12\n\n… if the function of two gene products completely overlaps then, throughout the course of evolution, one of the genes will likely accumulate mutations to the point of loss-of-function.\n\n\nM. tuberculosis genome retains redundant functions at multiple levels that allow the bacilli to adapt to extremely heterogeneous environments in the human host.\n\nPLoS Pathog. 2025. PMID: 41348814"
+    "text": "2025-12\n\n… if the function of two gene products completely overlaps then, throughout the course of evolution, one of the genes will likely accumulate mutations to the point of loss-of-function.\n\n\nM. tuberculosis genome retains redundant functions at multiple levels that allow the bacilli to adapt to extremely heterogeneous environments in the human host.\n\nPLoS Pathog. 2025. PMID: 41348814\n\nWhen working with an image in ImageJ, I almost always have at least one duplicate lingering around for when things inevitably go wrong.\n\nIntroduction to Bioimage Analysis\n\nR is widely used in statistical computing, data analysis, and bioinformatics. A key contributor to its success in bioinformatics and computational biology is the open-source project Bioconductor.\n\nbioRxiv. 2025. doi: https://doi.org/10.64898/2025.12.22.695980"
   },
   {
     "objectID": "nutrition.html",
     "href": "nutrition.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "Bioimage analysis, bioinformatics, and sci-tech\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nDec 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences\n\n\n\nsentences\n\n\n\nJust my point of view\n\n\n\nKang Wu\n\n\nDec 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nDec 5, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Some good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nDec 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioimage analysis, bioinformatics, and sci-tech\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nDec 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nDec 5, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
