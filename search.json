@@ -122,15 +122,15 @@
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "title": "Some good sentences beyond biology",
-    "section": "2026-01",
-    "text": "2026-01\n\n…贴在了独木寺的院门上，一边是：气度殊高，居天以上。一边是：光芒微吐，助月之明。\n\n《消息》17 独木寺，贾平凹"
+    "section": "2026-05",
+    "text": "2026-05\n\nThe grid package provides the underlying graphics system upon which ggplot2 is built. It’s one of two quite different drawing systems that are included in base R: base graphics and grid.\n\nggplot2: Elegant Graphics for Data Analysis\n\nI must mention here that tinyplot has made base R graphics great again since 2024, and kudos to its authors.\n\nYihui Xie/谢益辉"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "title": "Some good sentences beyond biology",
-    "section": "2026-02",
-    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+    "section": "2026-04",
+    "text": "2026-04\n\nPositron is a “batteries-included” fork of VS Code by Posit PBC.\n\nGrant McDermott\n\nFiji is a “batteries-included” distribution of ImageJ.\n\nFiji\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-2",
@@ -143,8 +143,15 @@
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "title": "Some good sentences beyond biology",
-    "section": "2026-04",
-    "text": "2026-04\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
+    "section": "2026-02",
+    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+  },
+  {
+    "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
+    "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
+    "title": "Some good sentences beyond biology",
+    "section": "2026-01",
+    "text": "2026-01\n\n…贴在了独木寺的院门上，一边是：气度殊高，居天以上。一边是：光芒微吐，助月之明。\n\n《消息》17 独木寺，贾平凹"
   },
   {
     "objectID": "nutrition/bioimage-analysis_bioinformatics_scitech/index.html",
@@ -172,14 +179,14 @@
     "href": "about.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "1️⃣After my Ph.D.👨🏻‍🎓in Shanghai Jiao Tong U., I became a Research Assistant at Shanghai Public Health Clinical Center (affiliated with Fudan U.), focusing on TB immunology, vaccine development, and bioinformatics (2012 - 2021).\n2️⃣Then after leaving academia, I have continued to pursue🕵🏻advancements in omics-, cell-, and BioImageAnalysis-relevant technologies, particularly in therapeutic and diagnostic applications.\n3️⃣I am self-taught in R, and am continually🚶🏻‍➡️enhancing Python, Bash, and PowerShell capabilities."
+    "text": "1️⃣After my Ph.D.👨🏻‍🎓in Shanghai Jiao Tong U., I became a Research Assistant at Shanghai Public Health Clinical Center (affiliated with Fudan U.), focusing on TB immunology, vaccine development, and a little bit of bioinformatics (R) (2012 - 2021).\n2️⃣Then after leaving academia, I have continued to pursue🕵🏻advancements in omics-, cell-, and BioImageAnalysis-relevant technologies, particularly in therapeutic and diagnostic applications (freelance now).\n3️⃣I am self-taught in R, and …🚶🏻‍➡️."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nApr 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nApr 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nMar 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nMar 21, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nApr 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nMay 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nMar 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nservices and knowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nMar 21, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "nutrition/bioimage-analysis_bioinformatics_scitech2/index.html",
