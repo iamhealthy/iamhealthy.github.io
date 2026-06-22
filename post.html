@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kang Wu/吴康</title>
+<title>post – Kang Wu/吴康</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,10 +34,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/wukang_logo.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -76,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PK8EEJETTK"></script>
 
 <script type="text/javascript">
@@ -86,6 +118,35 @@ gtag('js', new Date());
 gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -274,14 +335,14 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-book-half" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house-check" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> <i class="bi bi-house-check" role="img">
+    <a class="nav-link active" href="./post.html" aria-current="page"> <i class="bi bi-book-half" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> <i class="bi bi-file-arrow-up" role="img">
@@ -305,44 +366,169 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="a25vd2xlZGdl">knowledge <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWlzY2VsbGFueQ==">Miscellany <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VudGVuY2Vz">sentences <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="images/wukang_multiple.png" class="about-image
-  rounded " style="width: 40em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Kang Wu/吴康</h1>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header><main class="content column-page" id="quarto-document-content">
-
-<p>1️⃣After my <strong>Ph.D.</strong>👨🏻‍🎓, I became a <strong>research assistant at Shanghai Public Health Clinical Center</strong> (affiliated with Fudan U.), focusing on TB immunology, vaccine development, and some bioinformatics (R).</p>
-<p>2️⃣Then, after <strong>leaving academia</strong>, I have continued to pursue🕵🏻something meaningful and fulfilling.</p>
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://orcid.org/0000-0002-9024-795X" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="fa-brands fa-orcid"></i></span>
-  </a>
-  <a href="https://github.com/iamhealthy" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://bsky.app/profile/wukang.bsky.social" class="about-link" rel="" target="_blank">
-    <i class="bi bi-bluesky"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="mailto:wu__kang@126.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text"></span>
-  </a>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="TWlzY2VsbGFueQ==" data-listing-date-sort="1781054793000" data-listing-file-modified-sort="1781054793969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1008">
+<a href="./nutrition/To-present_bio-miscellany_Q-and-A/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./nutrition/To-present_bio-miscellany_Q-and-A/cells.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The biological-relevant questions
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlzY2VsbGFueQ=='); return false;">Miscellany</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>The routine questions I don’t know and the answers</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kang Wu
+</div>
+<div class="listing-date">
+Jun 10, 2026
 </div>
 </div>
- <!-- /main -->
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="c2VudGVuY2Vz" data-listing-date-sort="1776825282000" data-listing-file-modified-sort="1776825282233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1243">
+<a href="./nutrition/maybe_good_sentences_in_biology/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./nutrition/maybe_good_sentences_in_biology/moka-pot-coffee_small.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Some good sentences in biology
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2VudGVuY2Vz'); return false;">sentences</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Completely personal opinion</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kang Wu
+</div>
+<div class="listing-date">
+Apr 22, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="c2VudGVuY2Vz" data-listing-date-sort="1782004009000" data-listing-file-modified-sort="1782004009285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
+<a href="./nutrition/maybe_good_sentences_beyond_biology/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./nutrition/maybe_good_sentences_beyond_biology/inside_outside.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Some good sentences beyond biology
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2VudGVuY2Vz'); return false;">sentences</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Completely personal opinion</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kang Wu
+</div>
+<div class="listing-date">
+Jun 21, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="a25vd2xlZGdl" data-listing-date-sort="1780624021000" data-listing-file-modified-sort="1780624021204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<a href="./nutrition/bioimage-analysis_bioinformatics_scitech2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./nutrition/bioimage-analysis_bioinformatics_scitech2/swan.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BOOK：【生物】信息、科技、和图像分析（2）
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('a25vd2xlZGdl'); return false;">knowledge</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Mainly scientific and technical</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kang Wu
+</div>
+<div class="listing-date">
+Jun 5, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="a25vd2xlZGdl" data-listing-date-sort="1780624033000" data-listing-file-modified-sort="1780624033054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<a href="./nutrition/bioimage-analysis_bioinformatics_scitech/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./nutrition/bioimage-analysis_bioinformatics_scitech/genecard_bioimage_preview.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BOOK：【生物】信息、科技、和图像分析（1）
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('a25vd2xlZGdl'); return false;">knowledge</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Mainly scientific and technical</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kang Wu
+</div>
+<div class="listing-date">
+Jun 5, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -358,6 +544,13 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

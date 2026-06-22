@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -34,13 +69,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/wukang_logo.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -79,35 +111,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PK8EEJETTK"></script>
 
 <script type="text/javascript">
@@ -118,35 +121,6 @@ gtag('js', new Date());
 gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -335,14 +309,14 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-book-half" role="img">
+    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-check" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-house-check" role="img">
+    <a class="nav-link" href="./post.html"> <i class="bi bi-book-half" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> <i class="bi bi-file-arrow-up" role="img">
@@ -366,169 +340,89 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="a25vd2xlZGdl">knowledge <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWlzY2VsbGFueQ==">Miscellany <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VudGVuY2Vz">sentences <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<div class="quarto-about-jolla column-page">
+  <img src="images/wukang_multiple.png" class="about-image
+  rounded " style="width: 40em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Kang Wu/吴康</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
+
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(tidyplots)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># Get current year</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>current_year <span class="ot">&lt;-</span> <span class="fu">format</span>(<span class="fu">Sys.Date</span>(), <span class="st">"%Y"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-5"><a href="#cb1-5"></a>  <span class="fu">as.numeric</span>()</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co"># Stages</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a>tag <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"pre-school"</span>, <span class="st">"school"</span>, <span class="st">"academia"</span>, <span class="st">"out of academia"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9"></a>years_young <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">24</span>, <span class="dv">9</span>, current_year <span class="sc">-</span> <span class="dv">2021</span>)</span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co"># A data frame</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(</span>
+<span id="cb1-13"><a href="#cb1-13"></a>  <span class="at">years_young =</span> years_young,</span>
+<span id="cb1-14"><a href="#cb1-14"></a>  <span class="at">tag =</span> <span class="fu">factor</span>(</span>
+<span id="cb1-15"><a href="#cb1-15"></a>    <span class="at">x =</span> tag,</span>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="at">level =</span> tag</span>
+<span id="cb1-17"><a href="#cb1-17"></a>  )</span>
+<span id="cb1-18"><a href="#cb1-18"></a>)</span>
+<span id="cb1-19"><a href="#cb1-19"></a></span>
+<span id="cb1-20"><a href="#cb1-20"></a><span class="co"># Plot</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a>df <span class="sc">|&gt;</span> </span>
+<span id="cb1-22"><a href="#cb1-22"></a>  <span class="fu">tidyplot</span>(</span>
+<span id="cb1-23"><a href="#cb1-23"></a>    <span class="at">x =</span> years_young, </span>
+<span id="cb1-24"><a href="#cb1-24"></a>    <span class="at">color =</span> tag) <span class="sc">|&gt;</span> </span>
+<span id="cb1-25"><a href="#cb1-25"></a>  <span class="fu">add_barstack_absolute</span>() <span class="sc">|&gt;</span>   </span>
+<span id="cb1-26"><a href="#cb1-26"></a>  <span class="fu">add_caption</span>(<span class="at">caption =</span> <span class="fu">paste</span>(<span class="st">"as of"</span>, current_year)) <span class="sc">|&gt;</span> </span>
+<span id="cb1-27"><a href="#cb1-27"></a>  <span class="fu">adjust_size</span>(</span>
+<span id="cb1-28"><a href="#cb1-28"></a>    <span class="at">width =</span> <span class="dv">100</span>, </span>
+<span id="cb1-29"><a href="#cb1-29"></a>    <span class="at">height =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-30"><a href="#cb1-30"></a>  <span class="fu">adjust_legend_position</span>(<span class="at">position =</span> <span class="st">"top"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-31"><a href="#cb1-31"></a>  <span class="fu">reverse_color_levels</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-32"><a href="#cb1-32"></a>  <span class="fu">remove_legend_title</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-33"><a href="#cb1-33"></a>  <span class="fu">remove_y_axis_title</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-34"><a href="#cb1-34"></a>  <span class="fu">remove_y_axis_ticks</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-35"><a href="#cb1-35"></a>  <span class="fu">save_plot</span>(</span>
+<span id="cb1-36"><a href="#cb1-36"></a>    <span class="at">filename =</span> <span class="st">"images/wk_barstack-absolute.png"</span>,</span>
+<span id="cb1-37"><a href="#cb1-37"></a>    <span class="at">view_plot =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/wk_barstack-absolute.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TWlzY2VsbGFueQ==" data-listing-date-sort="1781054793000" data-listing-file-modified-sort="1781054793969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1008">
-<a href="./nutrition/To-present_bio-miscellany_Q-and-A/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./nutrition/To-present_bio-miscellany_Q-and-A/cells.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The biological-relevant questions
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWlzY2VsbGFueQ=='); return false;">Miscellany</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>The routine questions I don’t know and the answers</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kang Wu
-</div>
-<div class="listing-date">
-Jun 10, 2026
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://orcid.org/0000-0002-9024-795X" class="about-link" rel="" target="_blank">
+     <span class="about-link-text"><i class="fa-brands fa-orcid"></i></span>
+  </a>
+  <a href="https://github.com/iamhealthy" class="about-link" rel="" target="_blank">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://bsky.app/profile/wukang.bsky.social" class="about-link" rel="" target="_blank">
+    <i class="bi bi-bluesky"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="mailto:wu__kang@126.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope-at"></i>
+     <span class="about-link-text"></span>
+  </a>
 </div>
 </div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="c2VudGVuY2Vz" data-listing-date-sort="1776825282000" data-listing-file-modified-sort="1776825282233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1243">
-<a href="./nutrition/maybe_good_sentences_in_biology/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./nutrition/maybe_good_sentences_in_biology/moka-pot-coffee_small.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Some good sentences in biology
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2VudGVuY2Vz'); return false;">sentences</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Completely personal opinion</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kang Wu
-</div>
-<div class="listing-date">
-Apr 22, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="c2VudGVuY2Vz" data-listing-date-sort="1782004009000" data-listing-file-modified-sort="1782004009285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
-<a href="./nutrition/maybe_good_sentences_beyond_biology/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./nutrition/maybe_good_sentences_beyond_biology/inside_outside.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Some good sentences beyond biology
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2VudGVuY2Vz'); return false;">sentences</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Completely personal opinion</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kang Wu
-</div>
-<div class="listing-date">
-Jun 21, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="a25vd2xlZGdl" data-listing-date-sort="1780624021000" data-listing-file-modified-sort="1780624021204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./nutrition/bioimage-analysis_bioinformatics_scitech2/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./nutrition/bioimage-analysis_bioinformatics_scitech2/swan.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-BOOK：【生物】信息、科技、和图像分析（2）
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('a25vd2xlZGdl'); return false;">knowledge</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Mainly scientific and technical</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kang Wu
-</div>
-<div class="listing-date">
-Jun 5, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="a25vd2xlZGdl" data-listing-date-sort="1780624033000" data-listing-file-modified-sort="1780624033054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./nutrition/bioimage-analysis_bioinformatics_scitech/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./nutrition/bioimage-analysis_bioinformatics_scitech/genecard_bioimage_preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-BOOK：【生物】信息、科技、和图像分析（1）
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('a25vd2xlZGdl'); return false;">knowledge</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Mainly scientific and technical</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kang Wu
-</div>
-<div class="listing-date">
-Jun 5, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -544,13 +438,6 @@ Jun 5, 2026
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

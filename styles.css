@@ -3,3 +3,11 @@
 body {
     font-family: 'courier new', 'arial', 'calibri', 'simsun', 'microsoft yahei';
 }
+
+.cell {
+  text-align: left;
+}
+
+.sourceCode {
+  text-align: left;
+}
