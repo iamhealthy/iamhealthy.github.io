@@ -122,40 +122,47 @@
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "title": "Some good sentences beyond biology",
-    "section": "2026-06",
-    "text": "2026-06\n\nGoing straight to AI limits your creativity, because it short-circuits the iterative process you need to develop new ideas.\n\nItai Yanai\n\n… high-profile researchers working at high-profile universities and published in high-profile journals …\n\nNature, 2026\n\nWell-intentioned problem-solving can produce self-reinforcing inefficiencies.\n\nProc Natl Acad Sci U S A. 2026. PMID: 42213751"
+    "section": "2026-07",
+    "text": "2026-07\n\nPerhaps the simplest approach to draw maps is to use geom_polygon() to draw doundaries for different regions.\n\n\nVector data for maps are typically encoded using the “simple features” standard produced by the Open Geospatial Consortium.\n\n\n… in which (i.e. simple features) geographical entities are specified in terms of a set of lines, points and polygons, rasters take the form of images … For example … GeoTIFF, which is a regular TIFF file with additional metadata supplied.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "title": "Some good sentences beyond biology",
-    "section": "2026-05",
-    "text": "2026-05\n\nThe grid package provides the underlying graphics system upon which ggplot2 is built. It’s one of two quite different drawing systems that are included in base R: base graphics and grid.\n\nggplot2: Elegant Graphics for Data Analysis\n\nI must mention here that tinyplot has made base R graphics great again since 2024, and kudos to its authors.\n\nYihui Xie/谢益辉"
+    "section": "2026-06",
+    "text": "2026-06\n\n… scripting leads to reproducibility, but that does not mean reproducible is always correct.\n\nMike Nelson\n\nGoing straight to AI limits your creativity, because it short-circuits the iterative process you need to develop new ideas.\n\nItai Yanai\n\n… high-profile researchers working at high-profile universities and published in high-profile journals …\n\nNature, 2026\n\nWell-intentioned problem-solving can produce self-reinforcing inefficiencies.\n\nProc Natl Acad Sci U S A. 2026. PMID: 42213751"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-2",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-2",
     "title": "Some good sentences beyond biology",
-    "section": "2026-04",
-    "text": "2026-04\n\nPositron is a “batteries-included” fork of VS Code by Posit PBC.\n\nGrant McDermott\n\nFiji is a “batteries-included” distribution of ImageJ.\n\nFiji\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
+    "section": "2026-05",
+    "text": "2026-05\n\nThe grid package provides the underlying graphics system upon which ggplot2 is built. It’s one of two quite different drawing systems that are included in base R: base graphics and grid.\n\nggplot2: Elegant Graphics for Data Analysis\n\nI must mention here that tinyplot has made base R graphics great again since 2024, and kudos to its authors.\n\nYihui Xie/谢益辉"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "title": "Some good sentences beyond biology",
-    "section": "2026-03",
-    "text": "2026-03\n\nIf you kill Americans, if you threaten Americans anywhere on earth, well will hunt you down without apology and without hesitation, and we will kill you.\n\n美国第29任国防部长Peter Brian Hegseth\n\n明犯强汉者，虽远必诛。\n\n西汉名将陈汤\n\nYou don’t need to go viral. You just need to keep showing up and sharing what you know. Consistently. For years.\n\nMing Tommy Tang\n\nFor me at least, I find trial and error in a state of desperation and frustration to be the best (only?) way to pick up many important new skills.\n\nPeter Bankhead\n\nChina is ruled by engineers, whereas the United States is ruled by lawyers.\n\nNature"
+    "section": "2026-04",
+    "text": "2026-04\n\nPositron is a “batteries-included” fork of VS Code by Posit PBC.\n\nGrant McDermott\n\nFiji is a “batteries-included” distribution of ImageJ.\n\nFiji\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
     "title": "Some good sentences beyond biology",
-    "section": "2026-02",
-    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+    "section": "2026-03",
+    "text": "2026-03\n\nIf you kill Americans, if you threaten Americans anywhere on earth, well will hunt you down without apology and without hesitation, and we will kill you.\n\n美国第29任国防部长Peter Brian Hegseth\n\n明犯强汉者，虽远必诛。\n\n西汉名将陈汤\n\nYou don’t need to go viral. You just need to keep showing up and sharing what you know. Consistently. For years.\n\nMing Tommy Tang\n\nFor me at least, I find trial and error in a state of desperation and frustration to be the best (only?) way to pick up many important new skills.\n\nPeter Bankhead\n\nChina is ruled by engineers, whereas the United States is ruled by lawyers.\n\nNature"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-5",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-5",
+    "title": "Some good sentences beyond biology",
+    "section": "2026-02",
+    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+  },
+  {
+    "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-6",
+    "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-6",
     "title": "Some good sentences beyond biology",
     "section": "2026-01",
     "text": "2026-01\n\n…贴在了独木寺的院门上，一边是：气度殊高，居天以上。一边是：光芒微吐，助月之明。\n\n《消息》17 独木寺，贾平凹"
@@ -277,6 +284,6 @@
     "href": "post.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nApr 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nJun 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nApr 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nJul 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
