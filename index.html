@@ -371,28 +371,26 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 <span id="cb1-13"><a href="#cb1-13"></a>  <span class="at">years_young =</span> years_young,</span>
 <span id="cb1-14"><a href="#cb1-14"></a>  <span class="at">tag =</span> <span class="fu">factor</span>(</span>
 <span id="cb1-15"><a href="#cb1-15"></a>    <span class="at">x =</span> tag,</span>
-<span id="cb1-16"><a href="#cb1-16"></a>    <span class="at">level =</span> tag</span>
-<span id="cb1-17"><a href="#cb1-17"></a>  )</span>
-<span id="cb1-18"><a href="#cb1-18"></a>)</span>
-<span id="cb1-19"><a href="#cb1-19"></a></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="co"># Plot</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a>df <span class="sc">|&gt;</span> </span>
-<span id="cb1-22"><a href="#cb1-22"></a>  <span class="fu">tidyplot</span>(</span>
-<span id="cb1-23"><a href="#cb1-23"></a>    <span class="at">x =</span> years_young, </span>
-<span id="cb1-24"><a href="#cb1-24"></a>    <span class="at">color =</span> tag) <span class="sc">|&gt;</span> </span>
-<span id="cb1-25"><a href="#cb1-25"></a>  <span class="fu">add_barstack_absolute</span>() <span class="sc">|&gt;</span>   </span>
-<span id="cb1-26"><a href="#cb1-26"></a>  <span class="fu">add_caption</span>(<span class="at">caption =</span> <span class="fu">paste</span>(<span class="st">"as of"</span>, current_year)) <span class="sc">|&gt;</span> </span>
-<span id="cb1-27"><a href="#cb1-27"></a>  <span class="fu">adjust_size</span>(</span>
-<span id="cb1-28"><a href="#cb1-28"></a>    <span class="at">width =</span> <span class="dv">100</span>, </span>
-<span id="cb1-29"><a href="#cb1-29"></a>    <span class="at">height =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb1-30"><a href="#cb1-30"></a>  <span class="fu">adjust_legend_position</span>(<span class="at">position =</span> <span class="st">"top"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb1-31"><a href="#cb1-31"></a>  <span class="fu">reverse_color_levels</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-32"><a href="#cb1-32"></a>  <span class="fu">remove_legend_title</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-33"><a href="#cb1-33"></a>  <span class="fu">remove_y_axis_title</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-34"><a href="#cb1-34"></a>  <span class="fu">remove_y_axis_ticks</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-35"><a href="#cb1-35"></a>  <span class="fu">save_plot</span>(</span>
-<span id="cb1-36"><a href="#cb1-36"></a>    <span class="at">filename =</span> <span class="st">"images/wk_barstack-absolute.png"</span>,</span>
-<span id="cb1-37"><a href="#cb1-37"></a>    <span class="at">view_plot =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="at">level =</span> tag))</span>
+<span id="cb1-17"><a href="#cb1-17"></a></span>
+<span id="cb1-18"><a href="#cb1-18"></a><span class="co"># Plot</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a>df <span class="sc">|&gt;</span> </span>
+<span id="cb1-20"><a href="#cb1-20"></a>  <span class="fu">tidyplot</span>(</span>
+<span id="cb1-21"><a href="#cb1-21"></a>    <span class="at">x =</span> years_young, </span>
+<span id="cb1-22"><a href="#cb1-22"></a>    <span class="at">color =</span> tag) <span class="sc">|&gt;</span> </span>
+<span id="cb1-23"><a href="#cb1-23"></a>  <span class="fu">add_barstack_absolute</span>(<span class="at">reverse =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span>   </span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="fu">add_caption</span>(<span class="at">caption =</span> <span class="fu">paste</span>(<span class="st">"as of"</span>, current_year)) <span class="sc">|&gt;</span> </span>
+<span id="cb1-25"><a href="#cb1-25"></a>  <span class="fu">adjust_size</span>(</span>
+<span id="cb1-26"><a href="#cb1-26"></a>    <span class="at">width =</span> <span class="dv">100</span>, </span>
+<span id="cb1-27"><a href="#cb1-27"></a>    <span class="at">height =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-28"><a href="#cb1-28"></a>  <span class="fu">adjust_legend_position</span>(<span class="at">position =</span> <span class="st">"top"</span>) <span class="sc">|&gt;</span>  </span>
+<span id="cb1-29"><a href="#cb1-29"></a>  <span class="fu">remove_legend_title</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-30"><a href="#cb1-30"></a>  <span class="fu">remove_y_axis_title</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-31"><a href="#cb1-31"></a>  <span class="fu">remove_y_axis_ticks</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-32"><a href="#cb1-32"></a>  <span class="fu">remove_y_axis_line</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-33"><a href="#cb1-33"></a>  <span class="fu">save_plot</span>(</span>
+<span id="cb1-34"><a href="#cb1-34"></a>    <span class="at">filename =</span> <span class="st">"images/wk_barstack-absolute.png"</span>,</span>
+<span id="cb1-35"><a href="#cb1-35"></a>    <span class="at">view_plot =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="quarto-figure quarto-figure-center">
