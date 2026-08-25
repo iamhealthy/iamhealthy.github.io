@@ -18,7 +18,7 @@
     "href": "nutrition/maybe_good_sentences_in_biology/index.html#section",
     "title": "Some good sentences in biology",
     "section": "2026-08",
-    "text": "2026-08\n\n… We defined three distinct phenotypes based on our observed (intracellular) doubling times relative to literature values: normal growth (16-26 h), slow growth (&gt;=24 h) and fast growth (&lt;=16 h).\n\n\nUnexpectedly, we discovered fast-growing intracellular Mtb populations with doubling times below 10 hours.\n\nNature communications 2026"
+    "text": "2026-08\n\nThe absence of validated immune correlates of protection (against tuberculosis) and the uncertain predictive value of animal models means that candidate vaccines need evaluating in large, expensive efficacy trials.\n\nLancet Infect Dis. 2026\n\nDRT3b forms a hexamer and uses active-site-adjacent residues as deoxyadenosine and deoxycytidine gates to enforce alternating nucleotide addition, representing a unique example of amino-acid-templated DNA polymerization.\n\nCell 2026\n\n… We defined three distinct phenotypes based on our observed (intracellular) doubling times relative to literature values: normal growth (16-26 h), slow growth (&gt;=24 h) and fast growth (&lt;=16 h).\n\n\nUnexpectedly, we discovered fast-growing intracellular Mtb populations with doubling times below 10 hours.\n\nNature communications 2026"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_in_biology/index.html#section-1",
@@ -130,7 +130,7 @@
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "title": "Some good sentences beyond biology",
     "section": "2026-08",
-    "text": "2026-08\n\nggplot2 specifies the size in millimeters (mm), rather than the usual points (pts). The reason for this choice is that it makes it the units for font sizes consistent with how other sizes are specified in ggplot2. (There are 72.27 pts in a inch)\n\n\nThere are two groups of graphics devices (GDs): screen devices such as windows() (for Windows), quartz() (for Macs), X11() (mostly for Linux) and RStudioGD() (within RStudio) draw the plot to the screen, whereas file devices such as png() and pdf() write the plot to a file.\n\n[ggplot2: Elegant Graphics for Data Analysis (3e)] (https://ggplot2-book.org/annotations.html#sec-text-labels)"
+    "text": "2026-08\n\nInternally, ggplot2 handles discrete scales by mapping each category to an integer value and then drawing the geom at the corresponding coordinate location.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nggplot2 specifies the size in millimeters (mm), rather than the usual points (pts). The reason for this choice is that it makes it the units for font sizes consistent with how other sizes are specified in ggplot2. (There are 72.27 pts in a inch)\n\n\nThere are two groups of graphics devices (GDs): screen devices such as windows() (for Windows), quartz() (for Macs), X11() (mostly for Linux) and RStudioGD() (within RStudio) draw the plot to the screen, whereas file devices such as png() and pdf() write the plot to a file.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
@@ -298,6 +298,6 @@
     "href": "post.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nAug 20, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
