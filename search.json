@@ -136,54 +136,61 @@
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section",
     "title": "Some good sentences beyond biology",
-    "section": "2026-08",
-    "text": "2026-08\n\nConservatively, 2 GB Tiff on disk will be 5 to 10x larger in memory depending on the compression scheme.\n\nPeter Sobolewski\n\nInternally, ggplot2 handles discrete scales by mapping each category to an integer value and then drawing the geom at the corresponding coordinate location.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nggplot2 specifies the size in millimeters (mm), rather than the usual points (pts). The reason for this choice is that it makes it the units for font sizes consistent with how other sizes are specified in ggplot2. (There are 72.27 pts in a inch)\n\n\nThere are two groups of graphics devices (GDs): screen devices such as windows() (for Windows), quartz() (for Macs), X11() (mostly for Linux) and RStudioGD() (within RStudio) draw the plot to the screen, whereas file devices such as png() and pdf() write the plot to a file.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
+    "section": "2026-09",
+    "text": "2026-09\n\ngeom_point() is a shortcut. Behind the scenes it calls the layer() function to create a new layer. … It’s useful to understand the layer() function so you have a better mental model of the layer object. But you’ll rarely use the full layer() call because it’s so verbose (冗长的).\n\n\nlibrary(ggplot2)\n\np1 &lt;- ggplot() + labs(title = \"p1\")\n\np2 &lt;- ggplot(data = mpg, aes(x = displ, y = hwy)) +\n  geom_point() +\n  labs(title = \"p2: ordinary way\")\n\np3 &lt;- ggplot() +\n  geom_point(data = mpg, aes(x = displ, y = hwy)) +\n  labs(title = \"p3: layer components\\naddressed with 'geom_point()'\")\n\np4 &lt;- p1 +\n  layer(\n    data = mpg,\n    mapping = aes(x = displ, y = hwy),\n    geom = \"point\",\n    stat = \"identity\",\n    position = \"identity\"\n  ) +\n  labs(title = \"p4: layer components\\naddressed with 'layer()'\")\n\npatchwork::wrap_plots(p1, p2, p3, p4, ncol = 2)\n\n\n\n\n\n\n\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nEach layer (of ggplot2) can come from a different dataset and have a different aesthetic mapping, making it possible to create sophisticated plots that display data from multiple sources.\n\n\n… the details of a layer … five components: data, the aesthetic mappings, the geom, stat, and position adjustment.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-1",
     "title": "Some good sentences beyond biology",
-    "section": "2026-07",
-    "text": "2026-07\n\nI write to see what I can write. I code to see what I can code.\n\nDerek Sivers\n\nggraph builds on top of tidygraph and ggplot2 to allow a complete and familiar grammar of graphics for network data. … works with another data type that is fundamentally different from tabular data. … concerned with showing the network topology more than relations between two variables. Layouts are algorithms that use the network structure to calculate (often arbitrary) x and y values for each node … for visualization purposes.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nPerhaps the simplest approach to draw maps is to use geom_polygon() to draw doundaries for different regions.\n\n\nVector data for maps are typically encoded using the “simple features” standard produced by the Open Geospatial Consortium.\n\n\n… in which (i.e. simple features) geographical entities are specified in terms of a set of lines, points and polygons, rasters take the form of images … For example … GeoTIFF, which is a regular TIFF file with additional metadata supplied.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
+    "section": "2026-08",
+    "text": "2026-08\n\nGradient scales provide a robust method for creating any colour scheme you like. All you need to do is specify two or more reference colors, and ggplot2 will interpolate linearly between them …:\n\n\nscale_fill_gradient() produces a two-colour gradient scale_fill_gradient2() produces a three-color gradient with specified midpoint. scale_fill_gradientn() produces an n-color gradient\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nConservatively, 2 GB Tiff on disk will be 5 to 10x larger in memory depending on the compression scheme.\n\nPeter Sobolewski\n\nInternally, ggplot2 handles discrete scales by mapping each category to an integer value and then drawing the geom at the corresponding coordinate location.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nggplot2 specifies the size in millimeters (mm), rather than the usual points (pts). The reason for this choice is that it makes it the units for font sizes consistent with how other sizes are specified in ggplot2. (There are 72.27 pts in a inch)\n\n\nThere are two groups of graphics devices (GDs): screen devices such as windows() (for Windows), quartz() (for Macs), X11() (mostly for Linux) and RStudioGD() (within RStudio) draw the plot to the screen, whereas file devices such as png() and pdf() write the plot to a file.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-2",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-2",
     "title": "Some good sentences beyond biology",
-    "section": "2026-06",
-    "text": "2026-06\n\n… scripting leads to reproducibility, but that does not mean reproducible is always correct.\n\nMike Nelson\n\nGoing straight to AI limits your creativity, because it short-circuits the iterative process you need to develop new ideas.\n\nItai Yanai\n\n… high-profile researchers working at high-profile universities and published in high-profile journals …\n\nNature, 2026\n\nWell-intentioned problem-solving can produce self-reinforcing inefficiencies.\n\nProc Natl Acad Sci U S A. 2026. PMID: 42213751"
+    "section": "2026-07",
+    "text": "2026-07\n\nI write to see what I can write. I code to see what I can code.\n\nDerek Sivers\n\nggraph builds on top of tidygraph and ggplot2 to allow a complete and familiar grammar of graphics for network data. … works with another data type that is fundamentally different from tabular data. … concerned with showing the network topology more than relations between two variables. Layouts are algorithms that use the network structure to calculate (often arbitrary) x and y values for each node … for visualization purposes.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nPerhaps the simplest approach to draw maps is to use geom_polygon() to draw doundaries for different regions.\n\n\nVector data for maps are typically encoded using the “simple features” standard produced by the Open Geospatial Consortium.\n\n\n… in which (i.e. simple features) geographical entities are specified in terms of a set of lines, points and polygons, rasters take the form of images … For example … GeoTIFF, which is a regular TIFF file with additional metadata supplied.\n\nggplot2: Elegant Graphics for Data Analysis (3e)"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-3",
     "title": "Some good sentences beyond biology",
-    "section": "2026-05",
-    "text": "2026-05\n\nThe grid package provides the underlying graphics system upon which ggplot2 is built. It’s one of two quite different drawing systems that are included in base R: base graphics and grid.\n\nggplot2: Elegant Graphics for Data Analysis\n\nI must mention here that tinyplot has made base R graphics great again since 2024, and kudos to its authors.\n\nYihui Xie/谢益辉"
+    "section": "2026-06",
+    "text": "2026-06\n\n… scripting leads to reproducibility, but that does not mean reproducible is always correct.\n\nMike Nelson\n\nGoing straight to AI limits your creativity, because it short-circuits the iterative process you need to develop new ideas.\n\nItai Yanai\n\n… high-profile researchers working at high-profile universities and published in high-profile journals …\n\nNature, 2026\n\nWell-intentioned problem-solving can produce self-reinforcing inefficiencies.\n\nProc Natl Acad Sci U S A. 2026. PMID: 42213751"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-4",
     "title": "Some good sentences beyond biology",
-    "section": "2026-04",
-    "text": "2026-04\n\nPositron is a “batteries-included” fork of VS Code by Posit PBC.\n\nGrant McDermott\n\nFiji is a “batteries-included” distribution of ImageJ.\n\nFiji\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
+    "section": "2026-05",
+    "text": "2026-05\n\nThe grid package provides the underlying graphics system upon which ggplot2 is built. It’s one of two quite different drawing systems that are included in base R: base graphics and grid.\n\nggplot2: Elegant Graphics for Data Analysis\n\nI must mention here that tinyplot has made base R graphics great again since 2024, and kudos to its authors.\n\nYihui Xie/谢益辉"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-5",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-5",
     "title": "Some good sentences beyond biology",
-    "section": "2026-03",
-    "text": "2026-03\n\nIf you kill Americans, if you threaten Americans anywhere on earth, well will hunt you down without apology and without hesitation, and we will kill you.\n\n美国第29任国防部长Peter Brian Hegseth\n\n明犯强汉者，虽远必诛。\n\n西汉名将陈汤\n\nYou don’t need to go viral. You just need to keep showing up and sharing what you know. Consistently. For years.\n\nMing Tommy Tang\n\nFor me at least, I find trial and error in a state of desperation and frustration to be the best (only?) way to pick up many important new skills.\n\nPeter Bankhead\n\nChina is ruled by engineers, whereas the United States is ruled by lawyers.\n\nNature"
+    "section": "2026-04",
+    "text": "2026-04\n\nPositron is a “batteries-included” fork of VS Code by Posit PBC.\n\nGrant McDermott\n\nFiji is a “batteries-included” distribution of ImageJ.\n\nFiji\n\nOur best and our worst chaotically intertwining.\n\nLauren Harper\n\nPerson A (perhaps a PI or team leader …): No, I have no technical ability.\n\n\nPerson B (perhaps bigger boss …): So what are you being paid for?\n\n\nPerson A: The confidence that I have in my taste, and my ability to express what I feel.\n\nFrom Bluesky"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-6",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-6",
     "title": "Some good sentences beyond biology",
-    "section": "2026-02",
-    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+    "section": "2026-03",
+    "text": "2026-03\n\nIf you kill Americans, if you threaten Americans anywhere on earth, well will hunt you down without apology and without hesitation, and we will kill you.\n\n美国第29任国防部长Peter Brian Hegseth\n\n明犯强汉者，虽远必诛。\n\n西汉名将陈汤\n\nYou don’t need to go viral. You just need to keep showing up and sharing what you know. Consistently. For years.\n\nMing Tommy Tang\n\nFor me at least, I find trial and error in a state of desperation and frustration to be the best (only?) way to pick up many important new skills.\n\nPeter Bankhead\n\nChina is ruled by engineers, whereas the United States is ruled by lawyers.\n\nNature"
   },
   {
     "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-7",
     "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-7",
+    "title": "Some good sentences beyond biology",
+    "section": "2026-02",
+    "text": "2026-02\n\n… articulate something I’ve been thinking about for a while but have struggled putting into workds …\n\nStephen D. Turner"
+  },
+  {
+    "objectID": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-8",
+    "href": "nutrition/maybe_good_sentences_beyond_biology/index.html#section-8",
     "title": "Some good sentences beyond biology",
     "section": "2026-01",
     "text": "2026-01\n\n…贴在了独木寺的院门上，一边是：气度殊高，居天以上。一边是：光芒微吐，助月之明。\n\n《消息》17 独木寺，贾平凹"
@@ -308,10 +315,17 @@
     "text": "Q16: What is the range of things when it comes to image quality?\nA16:\n\n\nquality of sample prep (sectioning, artefacts such as tears and folds).\nquality of staining (consistency across samples, consistency across stainers, variability of stains over time, staining artefacts).\nquality of scanning (out of focus, areas too bright, too dark). and so on.\n\n\nDavid Mason"
   },
   {
+    "objectID": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q17-what-are-the-five-components-of-layer-object-in-ggplot2",
+    "href": "nutrition/To-present_bio-miscellany_Q-and-A/index.html#q17-what-are-the-five-components-of-layer-object-in-ggplot2",
+    "title": "The biological-relevant questions",
+    "section": "Q17: What are the five components of layer object in ggplot2?",
+    "text": "Q17: What are the five components of layer object in ggplot2?\nA17:\nMapping (specified using the aes() function), data, geom (the name of geometric object), stat (the name of statistical transformation), and position.\nggplot2: Elegant Graphics for Data Analysis (3e)"
+  },
+  {
     "objectID": "post.html",
     "href": "post.html",
     "title": "Kang Wu/吴康",
     "section": "",
-    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nAug 20, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "The biological-relevant questions\n\n\n\nMiscellany\n\n\n\nThe routine questions I don’t know and the answers\n\n\n\nKang Wu\n\n\nSep 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences in biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome good sentences beyond biology\n\n\n\nsentences\n\n\n\nCompletely personal opinion\n\n\n\nKang Wu\n\n\nSep 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（2）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nJun 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBOOK：【生物】信息、科技、和图像分析（1）\n\n\n\nknowledge\n\n\n\nMainly scientific and technical\n\n\n\nKang Wu\n\n\nAug 20, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
