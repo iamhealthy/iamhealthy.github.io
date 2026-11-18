@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -325,7 +360,7 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
   <li><a href="#co-1st-author-sci-co-first-authorcorresponding-author" id="toc-co-1st-author-sci-co-first-authorcorresponding-author" class="nav-link" data-scroll-target="#co-1st-author-sci-co-first-authorcorresponding-author">5.1 (co-)1st author SCI (# co-first author，*corresponding author)</a></li>
   </ul></li>
   <li><a href="#patents" id="toc-patents" class="nav-link" data-scroll-target="#patents">6. 💩Patents</a></li>
-  <li><a href="#scientific-projects" id="toc-scientific-projects" class="nav-link" data-scroll-target="#scientific-projects">7. 💩Scientific projects</a></li>
+  <li><a href="#grants" id="toc-grants" class="nav-link" data-scroll-target="#grants">7. 💩Grants</a></li>
   </ul>
 </nav>
     </div>
@@ -346,9 +381,494 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 </center>
 <section id="background" class="level1">
 <h1>1. Background</h1>
-<p><strong>Name</strong>：Kang Wu</p>
-<p><strong>E-mail</strong>：wu__kang@126.com</p>
-<p><strong>ORCID</strong>：<a href="https://orcid.org/0000-0002-9024-795X">0000-0002-9024-795X</a></p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tibble<span class="sc">::</span><span class="fu">tribble</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>Items, <span class="sc">~</span>Infos,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Name"</span>, <span class="st">"Kang Wu"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"E-mail"</span>, <span class="st">"wu__kang@126.com"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"ORCID"</span>, <span class="st">"https://orcid.org/0000-0002-9024-795X"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  gt<span class="sc">::</span><span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="yhflamqptp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#yhflamqptp table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#yhflamqptp thead, #yhflamqptp tbody, #yhflamqptp tfoot, #yhflamqptp tr, #yhflamqptp td, #yhflamqptp th {
+  border-style: none;
+}
+
+#yhflamqptp p {
+  margin: 0;
+  padding: 0;
+}
+
+#yhflamqptp .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#yhflamqptp .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#yhflamqptp .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#yhflamqptp .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#yhflamqptp .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#yhflamqptp .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#yhflamqptp .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#yhflamqptp .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#yhflamqptp .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#yhflamqptp .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#yhflamqptp .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#yhflamqptp .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#yhflamqptp .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#yhflamqptp .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#yhflamqptp .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yhflamqptp .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#yhflamqptp .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#yhflamqptp .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#yhflamqptp .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yhflamqptp .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#yhflamqptp .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yhflamqptp .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#yhflamqptp .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yhflamqptp .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yhflamqptp .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yhflamqptp .gt_left {
+  text-align: left;
+}
+
+#yhflamqptp .gt_center {
+  text-align: center;
+}
+
+#yhflamqptp .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#yhflamqptp .gt_font_normal {
+  font-weight: normal;
+}
+
+#yhflamqptp .gt_font_bold {
+  font-weight: bold;
+}
+
+#yhflamqptp .gt_font_italic {
+  font-style: italic;
+}
+
+#yhflamqptp .gt_super {
+  font-size: 65%;
+}
+
+#yhflamqptp .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#yhflamqptp .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#yhflamqptp .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#yhflamqptp .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#yhflamqptp .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#yhflamqptp .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#yhflamqptp .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#yhflamqptp .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#yhflamqptp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="Items" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Items</th>
+<th id="Infos" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Infos</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Items">Name</td>
+<td class="gt_row gt_left" headers="Infos">Kang Wu</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Items">E-mail</td>
+<td class="gt_row gt_left" headers="Infos">wu__kang@126.com</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Items">ORCID</td>
+<td class="gt_row gt_left" headers="Infos">https://orcid.org/0000-0002-9024-795X</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 </section>
 <section id="education" class="level1">
 <h1>2. Education</h1>
@@ -434,98 +954,575 @@ gtag('config', 'G-PK8EEJETTK', { 'anonymize_ip': true});
 <h1>6. 💩Patents</h1>
 <ul>
 <li><ol start="9" type="1">
-<li>张腾、<strong>吴康</strong>、纪逸群、东亚娟、钟军、罗卫峰、范小勇、赵建华。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpu4vbrBzU_3PsnP-Q3V99Dp6cwLCpKndUBuDOJl7VAPqOg-4piRb5TNMwLD-z_irZW7G6C1ltgvKPG0pzuWB_PK8URSDleCcn2EY0R6RjOUkHUCrXpwiAF5nJFVqbcsyRw62RvgtusalF3jXf-T6Nk&amp;uniplatform=NZKPT">一种改变不同核酸靶标相对PCR扩增速度的方法</a>。发明专利。申请号：202410372505.4。申请日期：2024.03.29。_该专利在2024.06.18被驳回。本人自认为该专利有有趣的发现，即通过具体实验证实了带有通用引物序列的靶标特异引物对的qPCR扩增性能更好（扩增体系亦包括通用引物对。相比于未带通用引物序列的靶标特异引物对的qPCR），进而能够较好实现改变不同核酸靶标的相对PCR扩增速度的目的。</li>
+<li>张腾、<strong>吴康</strong>、纪逸群、东亚娟、钟军、罗卫峰、范小勇、赵建华。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpu4vbrBzU_3PsnP-Q3V99Dp6cwLCpKndUBuDOJl7VAPqOg-4piRb5TNMwLD-z_irZW7G6C1ltgvKPG0pzuWB_PK8URSDleCcn2EY0R6RjOUkHUCrXpwiAF5nJFVqbcsyRw62RvgtusalF3jXf-T6Nk&amp;uniplatform=NZKPT">一种改变不同核酸靶标相对PCR扩增速度的方法</a>。发明专利。申请号：202410372505.4。申请日期：2024-03-29。<em>该专利在2024-06-18被驳回。本人自认为该专利有有趣的发现，即通过具体实验证实了带有通用引物序列的靶标特异引物对的qPCR扩增性能更好（扩增体系亦包括通用引物对。相比于未带通用引物序列的靶标特异引物对的qPCR），进而能够较好实现改变不同核酸靶标的相对PCR扩增速度的目的。</em></li>
 </ol></li>
 <li><ol start="8" type="1">
-<li><strong>吴康</strong>、张腾、纪逸群、钟军、罗卫峰、范小勇、赵建华。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpjPAzxuYpbWQM3RpoAL06cZBsyk3LQU2LhJLEhAdmrqgoQ5FaZnvwnsD9TM46g_g0_tHBUSHuaP3vyIUe5T8juWLx27kae7NehxiAa88l9mEh5vRoQr1xrIIkHwREJibI_Pd8KeaSQdndK32txYV2B&amp;uniplatform=NZKPT">一种通过预先PCR改变不同核酸靶标相对扩增速度的方法</a>。发明专利。申请号：202410274764.3。申请日期：2024.03.11。</li>
+<li><strong>吴康</strong>、张腾、纪逸群、钟军、罗卫峰、范小勇、赵建华。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpjPAzxuYpbWQM3RpoAL06cZBsyk3LQU2LhJLEhAdmrqgoQ5FaZnvwnsD9TM46g_g0_tHBUSHuaP3vyIUe5T8juWLx27kae7NehxiAa88l9mEh5vRoQr1xrIIkHwREJibI_Pd8KeaSQdndK32txYV2B&amp;uniplatform=NZKPT">一种通过预先PCR改变不同核酸靶标相对扩增速度的方法</a>。发明专利。申请号：202410274764.3。申请日期：2024-03-11。</li>
 </ol></li>
 <li><ol start="7" type="1">
-<li><strong>吴康</strong>、赵建华、张腾、范小勇、罗卫峰、东亚娟、纪逸群。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqqaMBPFF9gN4c-HMTgLziYBK8j8G4CFuhIYDsvb0BxLGro--xan__r3k99RKZTFZQ866LkIis-zSpaaxtXz1JRtUAiBoka6X7bcjtFXUYDrPc-x69P-Mn9Rrbu-MELwOpnb2_2DgXkYVftp5PS2DL6Z&amp;uniplatform=NZKPT">基于人基因组扩增子的illumina测序文库构建的引物组合</a>。发明专利。授权公告号：CN117701691B。申请日期：2024.02.01。</li>
+<li><strong>吴康</strong>、赵建华、张腾、范小勇、罗卫峰、东亚娟、纪逸群。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqqaMBPFF9gN4c-HMTgLziYBK8j8G4CFuhIYDsvb0BxLGro--xan__r3k99RKZTFZQ866LkIis-zSpaaxtXz1JRtUAiBoka6X7bcjtFXUYDrPc-x69P-Mn9Rrbu-MELwOpnb2_2DgXkYVftp5PS2DL6Z&amp;uniplatform=NZKPT">基于人基因组扩增子的illumina测序文库构建的引物组合</a>。发明专利。授权公告号：CN117701691B。申请日期：2024-02-01。</li>
 </ol></li>
 <li><ol start="6" type="1">
-<li><strong>吴康</strong>、东亚娟、张腾、范小勇、罗卫峰、赵建华、纪逸群。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqqcBZq-7ZhV9tJigLwMxp4UoUxgNen6nyMa0HlLJsbI4oK_prKRfg2Fp-iO3U7dj-F55XiCZbLauEAvMGd7-ZcLKME2DKazYNpM_oARuqSjpk6ldAY0v4XijdD1M1YoV5vCECFd4HAC2w5yaz7gd5tl&amp;uniplatform=NZKPT">基于左侧探针退火和右侧探针退火延伸的核酸扩增方法</a>。发明专利。授权公告号：CN117343999B。申请日期：2023.12.05。</li>
+<li><strong>吴康</strong>、东亚娟、张腾、范小勇、罗卫峰、赵建华、纪逸群。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqqcBZq-7ZhV9tJigLwMxp4UoUxgNen6nyMa0HlLJsbI4oK_prKRfg2Fp-iO3U7dj-F55XiCZbLauEAvMGd7-ZcLKME2DKazYNpM_oARuqSjpk6ldAY0v4XijdD1M1YoV5vCECFd4HAC2w5yaz7gd5tl&amp;uniplatform=NZKPT">基于左侧探针退火和右侧探针退火延伸的核酸扩增方法</a>。发明专利。授权公告号：CN117343999B。申请日期：2023-12-05。</li>
 </ol></li>
 <li><ol start="5" type="1">
-<li>范小勇、<strong>吴康</strong>、罗道良。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqr0JTg-yjSePNO8DSRbIszzlxdHhs6QQO_NbZRX0iU2fzArHCiEXv-8pGEtGR03anEcF9dNAqwrPDwGaT8n6BPrQqM-aEsTonEGlTposNeF-x6GmmbWkCTHe0-ALeofaxkUCslBVhlg6O0TFcvlukhp&amp;uniplatform=NZKPT">基于常规引物的针对串联重复序列的恒温扩增体系、扩增方法及常规引物对</a>。发明专利。授权公告号：CN111269969B；申请日期：2020.03.06。</li>
+<li>范小勇、<strong>吴康</strong>、罗道良。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqr0JTg-yjSePNO8DSRbIszzlxdHhs6QQO_NbZRX0iU2fzArHCiEXv-8pGEtGR03anEcF9dNAqwrPDwGaT8n6BPrQqM-aEsTonEGlTposNeF-x6GmmbWkCTHe0-ALeofaxkUCslBVhlg6O0TFcvlukhp&amp;uniplatform=NZKPT">基于常规引物的针对串联重复序列的恒温扩增体系、扩增方法及常规引物对</a>。发明专利。授权公告号：CN111269969B；申请日期：2020-03-06。</li>
 </ol></li>
 <li><ol start="4" type="1">
-<li>范小勇、<strong>吴康</strong>、罗道良。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpQoxQWQypCvetek_Na95CUgr2tQ3e4xVlkt1eGIyL0qoTMAxyrGYC2OBvEW8-R9IdWC-Tktc9OwN48IQq9jzE2qDeUbIRL5KEjuoRVcbjVaL1xfn_yCj5NCFyhssF65TZC6ERMEdV5wGxcYRGzk6od&amp;uniplatform=NZKPT">重组卡介苗菌株、其制备方法和用途</a>。发明专利。授权公告号：CN111979162B；申请日期：2019.05.22。</li>
+<li>范小勇、<strong>吴康</strong>、罗道良。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqpQoxQWQypCvetek_Na95CUgr2tQ3e4xVlkt1eGIyL0qoTMAxyrGYC2OBvEW8-R9IdWC-Tktc9OwN48IQq9jzE2qDeUbIRL5KEjuoRVcbjVaL1xfn_yCj5NCFyhssF65TZC6ERMEdV5wGxcYRGzk6od&amp;uniplatform=NZKPT">重组卡介苗菌株、其制备方法和用途</a>。发明专利。授权公告号：CN111979162B；申请日期：2019-05-22。</li>
 </ol></li>
 <li><ol start="3" type="1">
-<li>范小勇、吕亮东、赵国屏、马辉、<strong>吴康</strong>。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoewpv4UDp8L1B_NnXOi2lcL2KzHdTorINO1Qz7eg-0Xr5sLswJh6y2k_bawCOoQkww65Uuak3_zzUVQFzhqF9eNLBMvL4kzVXvsMtt9SeN1PHchqMdswj5DAdhyquyuASGMeP-0xcv1SFmmF4RnWKG&amp;uniplatform=NZKPT">mazG基因缺失的抗结核重组卡介苗</a>。发明专利。授权公告号：CN106148258B；申请日期：2015.04.20。</li>
+<li>范小勇、吕亮东、赵国屏、马辉、<strong>吴康</strong>。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoewpv4UDp8L1B_NnXOi2lcL2KzHdTorINO1Qz7eg-0Xr5sLswJh6y2k_bawCOoQkww65Uuak3_zzUVQFzhqF9eNLBMvL4kzVXvsMtt9SeN1PHchqMdswj5DAdhyquyuASGMeP-0xcv1SFmmF4RnWKG&amp;uniplatform=NZKPT">mazG基因缺失的抗结核重组卡介苗</a>。发明专利。授权公告号：CN106148258B；申请日期：2015-04-20。</li>
 </ol></li>
 <li><ol start="2" type="1">
-<li><strong>吴康</strong>、黄家颖、范小勇。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoxjrI6AOALAkWa2iEbNYMmc8dBb72RGGX1sA0Tx6CVUM_ikdrpreIax0Wt6cVwrHPyDe98HsDVOlqmw5AVegc8cR6ps0bElenxp9NE88JT1ytv6B2xacvxcQ1loHS0Rgnluvu3sddjcGxV4VjdS52R&amp;uniplatform=NZKPT">基于蛋白-蛋白相互作用网络的基因集鉴定方法</a>。发明专利。授权公告号：CN104182654B；申请日期：2014.07.30。</li>
+<li><strong>吴康</strong>、黄家颖、范小勇。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoxjrI6AOALAkWa2iEbNYMmc8dBb72RGGX1sA0Tx6CVUM_ikdrpreIax0Wt6cVwrHPyDe98HsDVOlqmw5AVegc8cR6ps0bElenxp9NE88JT1ytv6B2xacvxcQ1loHS0Rgnluvu3sddjcGxV4VjdS52R&amp;uniplatform=NZKPT">基于蛋白-蛋白相互作用网络的基因集鉴定方法</a>。发明专利。授权公告号：CN104182654B；申请日期：2014-07-30。</li>
 </ol></li>
 <li><ol type="1">
-<li><strong>吴康</strong>、范小勇、黄家颖、赵旭杰。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoa59KxR1yRWPMfLDVkdHzZjTSxNfzxkub6EzHAERnKN123hDu4sXjpSiA6ElvpRQr4uQJjjd5VN0lY5-m0m7VjdhCond7pjSgBN1Gg4IrSSDZUWEEH-_YGAMtYXxPg9PoW8CeUSd-MTqf4kzDPbzgo&amp;uniplatform=NZKPT">PCR扩增基因核转悬浮动物细胞的方法</a>。发明专利。授权公告号：CN103740760B；申请日期：2014.01.09。专利权终止日期：2024.01.09。</li>
+<li><strong>吴康</strong>、范小勇、黄家颖、赵旭杰。<a href="https://kns.cnki.net/kcms2/article/abstract?v=HjxF7zNTnqoa59KxR1yRWPMfLDVkdHzZjTSxNfzxkub6EzHAERnKN123hDu4sXjpSiA6ElvpRQr4uQJjjd5VN0lY5-m0m7VjdhCond7pjSgBN1Gg4IrSSDZUWEEH-_YGAMtYXxPg9PoW8CeUSd-MTqf4kzDPbzgo&amp;uniplatform=NZKPT">PCR扩增基因核转悬浮动物细胞的方法</a>。发明专利。授权公告号：CN103740760B；申请日期：2014-01-09。</li>
 </ol></li>
 </ul>
 </section>
-<section id="scientific-projects" class="level1">
-<h1>7. 💩Scientific projects</h1>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
+<section id="grants" class="level1">
+<h1>7. 💩Grants</h1>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">num =</span> <span class="fu">c</span>(<span class="dv">5</span><span class="sc">:</span><span class="dv">1</span>),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">grant_category =</span> <span class="fu">c</span>(</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"General Science and Technology Plan Project of Putuo District, Zhoushan City"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Medical guidance by the Shanghai Science and Technology Commission"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"National Key Research and Development Program"</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"National Natural Science Foundation for Youth"</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Shanghai Science and Technology Commission for Youth"</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">grant_num =</span> <span class="fu">c</span>(</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2023YB003"</span>, <span class="st">"18411970700"</span>, <span class="st">"2018YFD0500900"</span>, </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"81301407"</span>, <span class="st">"12ZR1448200"</span>),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">project_leader =</span> <span class="fu">c</span>(</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rep</span>(<span class="st">"Kang Wu"</span>, <span class="dv">2</span>), </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kang Wu (sub-project 3)"</span>, </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rep</span>(<span class="st">"Kang Wu"</span>, <span class="dv">2</span>)),</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">duration =</span> <span class="fu">c</span>(</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2023-01 ~ 2025-06"</span>, </span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2018-09 ~ 2021-09"</span>, </span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2018-06 ~ 2021-09"</span>, </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2014-01 ~ 2016-12"</span>, </span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2012-10 ~ 2015-09"</span>),</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">funding_RMB =</span> <span class="fu">c</span>(<span class="st">"12"</span>, <span class="st">"20"</span>, <span class="st">"47 of 1263"</span>, <span class="st">"23"</span>, <span class="st">"10"</span>)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> </span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  gt<span class="sc">::</span><span class="fu">gt</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="ldcomhjoys" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ldcomhjoys table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ldcomhjoys thead, #ldcomhjoys tbody, #ldcomhjoys tfoot, #ldcomhjoys tr, #ldcomhjoys td, #ldcomhjoys th {
+  border-style: none;
+}
+
+#ldcomhjoys p {
+  margin: 0;
+  padding: 0;
+}
+
+#ldcomhjoys .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ldcomhjoys .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ldcomhjoys .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ldcomhjoys .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ldcomhjoys .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ldcomhjoys .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ldcomhjoys .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ldcomhjoys .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ldcomhjoys .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ldcomhjoys .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ldcomhjoys .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ldcomhjoys .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ldcomhjoys .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ldcomhjoys .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ldcomhjoys .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ldcomhjoys .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ldcomhjoys .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ldcomhjoys .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ldcomhjoys .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ldcomhjoys .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ldcomhjoys .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ldcomhjoys .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ldcomhjoys .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ldcomhjoys .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ldcomhjoys .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ldcomhjoys .gt_left {
+  text-align: left;
+}
+
+#ldcomhjoys .gt_center {
+  text-align: center;
+}
+
+#ldcomhjoys .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ldcomhjoys .gt_font_normal {
+  font-weight: normal;
+}
+
+#ldcomhjoys .gt_font_bold {
+  font-weight: bold;
+}
+
+#ldcomhjoys .gt_font_italic {
+  font-style: italic;
+}
+
+#ldcomhjoys .gt_super {
+  font-size: 65%;
+}
+
+#ldcomhjoys .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ldcomhjoys .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ldcomhjoys .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ldcomhjoys .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ldcomhjoys .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ldcomhjoys .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ldcomhjoys .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#ldcomhjoys .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#ldcomhjoys div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
-<tr class="header">
-<th style="text-align: left;">序号</th>
-<th style="text-align: left;">项目类型</th>
-<th style="text-align: left;">项目号</th>
-<th style="text-align: left;">负责人</th>
-<th style="text-align: left;">期限</th>
-<th style="text-align: left;">经费额(￥万)</th>
+<tr class="gt_col_headings header">
+<th id="num" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">num</th>
+<th id="grant_category" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">grant_category</th>
+<th id="grant_num" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">grant_num</th>
+<th id="project_leader" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">project_leader</th>
+<th id="duration" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">duration</th>
+<th id="funding_RMB" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">funding_RMB</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="gt_table_body">
 <tr class="odd">
-<td style="text-align: left;">5</td>
-<td style="text-align: left;">舟山市普陀区一般科技计划项目</td>
-<td style="text-align: left;">2023YB003</td>
-<td style="text-align: left;"><strong>吴康</strong></td>
-<td style="text-align: left;">2023/01-2025/06</td>
-<td style="text-align: left;">12</td>
+<td class="gt_row gt_right" headers="num">5</td>
+<td class="gt_row gt_left" headers="grant_category">General Science and Technology Plan Project of Putuo District, Zhoushan City</td>
+<td class="gt_row gt_left" headers="grant_num">2023YB003</td>
+<td class="gt_row gt_left" headers="project_leader">Kang Wu</td>
+<td class="gt_row gt_left" headers="duration">2023-01 ~ 2025-06</td>
+<td class="gt_row gt_left" headers="funding_RMB">12</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">4</td>
-<td style="text-align: left;">上海市科委医学引导</td>
-<td style="text-align: left;">18411970700</td>
-<td style="text-align: left;"><strong>吴康</strong></td>
-<td style="text-align: left;">2018/09-2021/09</td>
-<td style="text-align: left;">20</td>
+<td class="gt_row gt_right" headers="num">4</td>
+<td class="gt_row gt_left" headers="grant_category">Medical guidance by the Shanghai Science and Technology Commission</td>
+<td class="gt_row gt_left" headers="grant_num">18411970700</td>
+<td class="gt_row gt_left" headers="project_leader">Kang Wu</td>
+<td class="gt_row gt_left" headers="duration">2018-09 ~ 2021-09</td>
+<td class="gt_row gt_left" headers="funding_RMB">20</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">3</td>
-<td style="text-align: left;">国家重点研发计划</td>
-<td style="text-align: left;">2018YFD0500900</td>
-<td style="text-align: left;"><strong>吴康</strong>(子课题3)</td>
-<td style="text-align: left;">2018/06-2021/09</td>
-<td style="text-align: left;">47<span style="color: #dddddd;">/1263</span></td>
+<td class="gt_row gt_right" headers="num">3</td>
+<td class="gt_row gt_left" headers="grant_category">National Key Research and Development Program</td>
+<td class="gt_row gt_left" headers="grant_num">2018YFD0500900</td>
+<td class="gt_row gt_left" headers="project_leader">Kang Wu (sub-project 3)</td>
+<td class="gt_row gt_left" headers="duration">2018-06 ~ 2021-09</td>
+<td class="gt_row gt_left" headers="funding_RMB">47 of 1263</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">2</td>
-<td style="text-align: left;">国自然青年</td>
-<td style="text-align: left;">81301407</td>
-<td style="text-align: left;"><strong>吴康</strong></td>
-<td style="text-align: left;">2014/01-2016/12</td>
-<td style="text-align: left;">23</td>
+<td class="gt_row gt_right" headers="num">2</td>
+<td class="gt_row gt_left" headers="grant_category">National Natural Science Foundation for Youth</td>
+<td class="gt_row gt_left" headers="grant_num">81301407</td>
+<td class="gt_row gt_left" headers="project_leader">Kang Wu</td>
+<td class="gt_row gt_left" headers="duration">2014-01 ~ 2016-12</td>
+<td class="gt_row gt_left" headers="funding_RMB">23</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">上海市科委青年</td>
-<td style="text-align: left;">12ZR1448200</td>
-<td style="text-align: left;"><strong>吴康</strong></td>
-<td style="text-align: left;">2012/10-2015/09</td>
-<td style="text-align: left;">10</td>
+<td class="gt_row gt_right" headers="num">1</td>
+<td class="gt_row gt_left" headers="grant_category">Shanghai Science and Technology Commission for Youth</td>
+<td class="gt_row gt_left" headers="grant_num">12ZR1448200</td>
+<td class="gt_row gt_left" headers="project_leader">Kang Wu</td>
+<td class="gt_row gt_left" headers="duration">2012-10 ~ 2015-09</td>
+<td class="gt_row gt_left" headers="funding_RMB">10</td>
 </tr>
 </tbody>
 </table>
+
+</div>
+</div>
+</div>
 
 
 </section>
